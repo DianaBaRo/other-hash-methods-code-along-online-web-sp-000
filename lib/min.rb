@@ -12,6 +12,6 @@ def get_the_min(groceries)
   groceries.each do |categoria, producto|
     producto.each do |minimo|
       minimo.min
-    end 
+    end
   end
 end
